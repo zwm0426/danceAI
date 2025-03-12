@@ -1,21 +1,21 @@
 main:
-  - name: "Services"
+  - name: "服务项目"
     url: "/services/"
     weight: 2
-  - name: "Team"
+  - name: "师资团队"
     url: "/team/"
     weight: 3
-  - name: "About"
+  - name: "关于我们"
     url: "/about/"
     weight: 4
-  - name: "Contact"
+  - name: "加入我们"
     url: "/contact/"
     weight: 5
 
 footer:
-  - name: "Home"
+  - name: "首页"
     url: "/"
     weight: 1
-  - name: "Contact"
+  - name: "加入我们"
     url: "/contact/"
     weight: 2

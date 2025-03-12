@@ -1,16 +1,9 @@
 ---
-title: Contact
+title: 加入我们
 layout: contact
 description: Contact
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
-
-| Day       | Opening Hours   |
-| --------- | --------------- |
-| Tuesday   | 8:30am - 5:00pm |
-| Wednesday | 8:30am - 5:00pm |
-| Thursday  | 8:30am - 5:00pm |
-| Friday    | 8:30am - 5:00pm |
-| Saturday  | 10:am - 4:00pm  |
-| Saturday  | Closed          |
+加⼊我们，成为导师或合作伙伴  
+我们欢迎985、211及海外⾼校AI/CS/SE专业的硕博、博⼠后加⼊，和我们⼀起创造⾼质量的教学体验。  
+欢迎发送邮件至上述邮箱，请附上您的来意和基本简历。
