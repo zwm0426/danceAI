@@ -9,7 +9,7 @@ intro_image_hide_on_mobile: true
 show_call_box: false
 ---
 
-# 跃动AI
+<h1>跃动<span style="color: #d9534f;">AI</span></h1>
 # 学科交叉资源平台
 
 汇聚来自多个TOP院校的人工智能硕博士团队<br>
