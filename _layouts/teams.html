@@ -45,7 +45,7 @@ bodyClass: "page-teams"
         {% assign teams = site.team | where: "promoted", empty | sort: "weight" %}
         {% for team in teams %}
         <div class="col-12 col-md-4 mb-3">
-            <div class="team team-summary">
+            <div class="team team-summary team-summary-large">
                 {% if team.image %}
                 <div class="team-image">
                     <img width="60" height="60" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />

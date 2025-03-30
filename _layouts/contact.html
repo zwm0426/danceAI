@@ -9,9 +9,40 @@ bodyClass: "page-contact"
         <div class="col-12 col-md-8">
             <div class="service service-single">
                 <h1 class="title">{{page.title}}</h1>
-                {% include call.html show_button=false %}
-                <div class="content mt-4">{{content}}</div>
+
+                <section class="join-us-section py-5">
+                    <div class="container">
+                      <h2 class="mb-3" style="font-size: 2rem; font-weight: 700;">加入我们，共建高质量 AI 教学平台</h2>
+                      <p class="lead" style="font-size: 1.125rem;">
+                        <strong class="text-danger">我们正在寻找优秀的导师与合作伙伴，</strong> 一起探索 AI + 学科交叉的新可能！
+                      </p>
+                  
+                      <p>
+                        欢迎来自 <strong>985、211 及海外高校</strong> AI / CS / SE 专业的 <strong>硕士、博士及博士后</strong> 加入我们导师团队。
+                        无论你擅长算法建模、科研辅导还是跨学科教学，
+                        <strong>都能在这里找到发挥所长的舞台</strong>，共同为学生打造卓越的学习体验。
+                      </p>
+                  
+                      <div class="mt-4">
+                        <p><strong>电话:</strong> <span id="phone"></span></p>
+                        <p><strong>电子邮箱:</strong> <span id="email"></span></p>
+                      </div>
+                  
+                      <p class="mt-3">
+                        请将简历和来意发送至以上邮箱，<strong>我们期待与您的每一次对话。</strong>
+                      </p>
+                    </div>
+                  </section>
+                  
             </div>
         </div>
     </div>
 </div>
+
+
+
+<script>
+  document.getElementById("phone").innerText = "+86-155-3800-0209";
+  document.getElementById("email").innerText = "ppjiong11" + "@gmail.com";
+  //document.getElementById("email").innerText = "talent" + "@yuedongai.com";
+</script>

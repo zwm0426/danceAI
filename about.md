@@ -3,27 +3,23 @@ title: 关于我们
 layout: page
 description: About
 bodyClass: page-about
+intro_image_absolute: true
+intro_image_hide_on_mobile: false
 ---
 
-我们专注于人工智能与各学科的交叉融合，赋能农业、医学、生物学等领域。无论是入门学习还是前沿研究，我们提供从环境配置、把握方向到数据处理、模型训练、算法优化等全方位支持，助力科研突破与产业创新。
+
+我们专注于人工智能与各学科的交叉融合，赋能农业、医学、生物学、心理学、经济学等多个领域。无论是入门学习还是前沿科研，我们都能提供从环境配置、数据处理、模型训练到算法优化的全流程支持，助力科研突破与产业创新落地。
 
 
 # 科研
 
-Financial accounting and financial reporting are often used as synonyms.
+跃动AI致力于为高校和科研机构提供专业的AI赋能方案。我们帮助研究者快速掌握人工智能工具，提升科研效率，并推动跨学科交叉研究落地。无论是构建分析模型、挖掘数据潜力，还是进行学术成果产出，我们都能提供一站式技术支持与个性化指导。
 
-1. According to International Financial Reporting Standards: the objective of financial reporting is:
-2. To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.
-3. According to the European Accounting Association:
+# 产业
 
-## 产业
+我们为企业、科研院所等提供AI落地服务，帮助其在具体业务中实现智能化升级。从图像识别到语言处理，从推荐系统到预测分析，我们的技术团队根据场景定制解决方案，助力客户在科研、医疗、金融、制造等领域实现数智转型。
 
-Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance.
+# 更多可能性
 
-> The ingredients of relevance are the predictive value and confirmatory value.
+除了标准服务，我们还探索更多跨界合作的可能性。我们欢迎各类专业背景的研究者、工程师、企业家和教育工作者与我们携手，打造开放、协同、可持续的人工智能创新生态。AI不只是工具，它是推动未来的桥梁。
 
-Information is considered material if its omission or misstatement could influence the economic decisions of users taken on the basis of the financial statements.
-
-## 更多可能性
-
-Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error.

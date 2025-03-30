@@ -21,32 +21,53 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<div class="strip">
-  <div class="container pt-6 pb-6 pb-md-10">
-    <div class="row justify-content-start">
-      {% assign limit = site.home.limit_services | default: 6 %}
-      {% for service in site.services limit: limit %}
-      <div class="col-12 col-md-4 mb-1">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title">
-              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-            </h2>
-            <p>{{ service.excerpt | markdownify | strip_html | truncate: 100 }}</p>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-auto">
-        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
+<!-- 服务选项 -->
+
+<div class="package-section">
+  <div class="row">
+
+    <div class="col-12 col-md-6 col-lg-3 mb-4">
+      <div class="service-card">
+        <div class="service-icon">📘</div>
+        <h3 class="service-title">基础套餐</h3>
+        <p><strong>零基础起步，快速掌握核心技能</strong><br>适合首次接触 AI 与科研交叉的学生 <br></p>
+        <a href="/services/basic/" class="service-btn">了解更多</a>
       </div>
     </div>
+
+    <div class="col-12 col-md-6 col-lg-3 mb-4">
+      <div class="service-card">
+        <div class="service-icon">📗</div>
+        <h3 class="service-title">进阶套餐</h3>
+        <p><strong>项目驱动，深入理解与应用</strong><br>适合有基础<br>想参与实际项目的同学</p>
+        <a href="/services/pro/" class="service-btn">了解更多</a>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3 mb-4">
+      <div class="service-card">
+        <div class="service-icon">💎</div>
+        <h3 class="service-title">VIP全程套餐</h3>
+        <p><strong>一对一辅导，全程科研陪跑</strong><br>从选题到论文<br>专属导师全流程指导</p>
+        <a href="/services/vip/" class="service-btn">了解更多</a>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3 mb-4">
+      <div class="service-card">
+        <div class="service-icon">🎯</div>
+        <h3 class="service-title">高级定制服务</h3>
+        <p><strong>企业/科研院所专项解决方案</strong><br>支持企业级、硕博课题<br>国际合作等</p>
+        <a href="/services/vipppp/" class="service-btn">了解更多</a>
+      </div>
+    </div>
+
   </div>
 </div>
 
-{% if site.data.features %}
+
+
+<!-- {% if site.data.features %}
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <div class="row justify-content-center">
@@ -61,7 +82,42 @@ bodyClass: "page-home"
           <div class="feature-content">{{ feature.description }}</div>
         </div>
       </div>
-      {% endfor %}
+      {% endfor %} -->
+
+<!-- feature -->
+
+    <div class="strip">
+      <div class="container pt-6 pb-6">
+        <div class="row justify-content-center">
+
+          <div class="col-12 col-md-4 mb-4">
+            <div class="service service-summary text-center">
+              <img src="/images/icons/experience.png" alt="经验图标" style="width: 80px; height: auto;" class="mb-3">
+              <h2 class="service-title text-danger">学科交叉辅导 · 五年经验</h2>
+              <p>跃动AI深耕学科交叉领域，专注于跨学科科研辅导<br>拥有五年丰富经验，助力您的科研之路。</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 mb-4">
+            <div class="service service-summary text-center">
+              <img src="/images/icons/mentor.png" alt="导师图标" style="width: 80px; height: auto;" class="mb-3">
+              <h2 class="service-title text-danger">顶尖名校导师 · 专业保障</h2>
+              <p>我们的导师团队主要来自清华、北大、复旦、交大、浙大等顶尖高校<br>确保高质量的学术指导与科研支持。</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 mb-4">
+            <div class="service service-summary text-center">
+              <img src="/images/icons/custom.png" alt="定制图标" style="width: 80px; height: auto;" class="mb-3">
+              <h2 class="service-title text-danger">多元化服务 · 量身定制</h2>
+              <p>我们提供多种辅导方案<br>覆盖从入门小白到高阶研究者<br>精准匹配您的需求，助力科研突破。</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
 
     </div>
   </div>

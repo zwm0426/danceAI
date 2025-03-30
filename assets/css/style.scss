@@ -116,3 +116,188 @@ body {
     line-height: 1.3;
   }
 }
+
+
+//index 图片下面控制
+
+.intro {
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+  // 也可以适度保留一点底部留白：
+  @media (min-width: 768px) {
+    padding-bottom: 30px;
+  }
+}
+
+//副标题
+
+.subtitle {
+  font-size: 1.5rem;  /* 或根据需要使用 20px / 24px */
+  font-weight: 500;
+  color: #2d2d3a; /* 自定义颜色，可与标题统一 */
+  display: block;
+  margin-top: 0.5rem;
+}
+
+
+//index 服务卡片
+.package-section {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.service-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  padding: 24px;
+  text-align: center;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.service-icon {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.service-title {
+  font-size: 20px;
+  color: #D23C2E;
+  margin-bottom: 8px;
+}
+
+.service-card p {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 16px;
+}
+
+.service-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #D23C2E;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.service-btn:hover {
+  background-color: #b52e23;
+}
+
+//index feature卡片
+
+.service-summary {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.service-summary:hover {
+  transform: translateY(-5px);
+}
+
+.service-summary img {
+  display: block;
+  margin: 0 auto 15px;
+}
+
+
+//ICP备案footer
+
+.sub-footer .copyright {
+  color: #fff;
+  font-size: 14px;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.sub-footer .copyright a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sub-footer .copyright a:hover {
+  text-decoration: underline;
+}
+
+
+// 加入我们 contacts
+.join-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+.join-card h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.join-card a {
+  text-decoration: none;
+}
+
+
+// headings h1 统一
+.page-about h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+// team 卡片 
+
+.team-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #fff;
+  transition: box-shadow 0.2s ease-in-out;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  text-align: left;
+
+  .team-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333; // 黑色名字
+    margin-bottom: 0.25rem;
+  }
+
+  .team-description {
+    color: #d63333; // 红色职称
+    font-weight: 500;
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .team-image {
+    img {
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+
+  a {
+    color: #666;
+    text-decoration: underline;
+    font-size: 0.85rem;
+  }
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+}

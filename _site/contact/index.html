@@ -5,14 +5,14 @@
   <meta charset="utf-8">
   <title>加入我们</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" type="image/png" href="/danceAI/images/favicon-32x32.svg">
+  <link rel="icon" type="image/png" href="/images/favicon-32x32.svg">
   <!-- Google Fonts CDN -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
   <!-- Self host font -->
-  <!-- <link rel="preload" href="/danceAI/assets/fonts/playfair-display.woff2" as="font" type="font/woff2" crossorigin> -->
-  <link href="/danceAI/assets/css/style.css" rel="stylesheet">
+  <!-- <link rel="preload" href="/assets/fonts/playfair-display.woff2" as="font" type="font/woff2" crossorigin> -->
+  <link href="/assets/css/style.css" rel="stylesheet">
   
   <meta name="description" content="Contact" />
   <meta property="og:title" content="加入我们"/>
@@ -32,19 +32,19 @@
   <ul>
     
     <li class="">
-      <a href="/danceAI/services/">服务项目</a>
+      <a href="/services/">服务项目</a>
     </li>
     
     <li class="">
-      <a href="/danceAI/team/">师资团队</a>
+      <a href="/team/">师资团队</a>
     </li>
     
     <li class="">
-      <a href="/danceAI/about/">关于我们</a>
+      <a href="/about/">关于我们</a>
     </li>
     
     <li class="active">
-      <a href="/danceAI/contact/">加入我们</a>
+      <a href="/contact/">加入我们</a>
     </li>
     
   </ul>
@@ -54,29 +54,29 @@
     <div class='header'>
   <div class="container">
     <div class="logo">
-      <a href="/danceAI/"><img width="120px" height="32px" alt="Jekyll Serif" src="/danceAI/images/logo/logo.svg" /></a>
+      <a href="/"><img width="120px" height="32px" alt="跃动AI" src="/images/logo/logo1.png" /></a>
     </div>
     <div class="logo-mobile">
-      <a href="/danceAI/"><img width="32px" height="32px" alt="Jekyll Serif" src="/danceAI/images/logo/logo-mobile.svg" /></a>
+      <a href="/"><img width="32px" height="32px" alt="跃动AI" src="/images/logo/logo-mobile.svg" /></a>
     </div>
     <div id="main-menu" class="main-menu">
   
   <ul>
     
     <li class="">
-      <a href="/danceAI/services/">服务项目</a>
+      <a href="/services/">服务项目</a>
     </li>
     
     <li class="">
-      <a href="/danceAI/team/">师资团队</a>
+      <a href="/team/">师资团队</a>
     </li>
     
     <li class="">
-      <a href="/danceAI/about/">关于我们</a>
+      <a href="/about/">关于我们</a>
     </li>
     
     <li class="active">
-      <a href="/danceAI/contact/">加入我们</a>
+      <a href="/contact/">加入我们</a>
     </li>
     
   </ul>
@@ -95,30 +95,43 @@
         <div class="col-12 col-md-8">
             <div class="service service-single">
                 <h1 class="title">加入我们</h1>
-                <div class="call">
-  <div class="call-box-top">
-    
-        <div class="call-phone"><strong>Phone: </strong> +86-155-3800-0209 </div>
-    
-    
-    <div class="call-email"><strong>Email: </strong>
-      <a href="mailto:ppjiong11@gmail.com">
-        ppjiong11@gmail.com
-      </a>
-    </div>
-    
-  </div>
-    
-</div>
 
-                <div class="content mt-4"><p>加⼊我们，成为导师或合作伙伴<br />
-我们欢迎985、211及海外⾼校AI/CS/SE专业的硕博、博⼠后加⼊，和我们⼀起创造⾼质量的教学体验。<br />
-欢迎发送邮件至上述邮箱，请附上您的来意和基本简历。</p>
-</div>
+                <section class="join-us-section py-5">
+                    <div class="container">
+                      <h2 class="mb-3" style="font-size: 2rem; font-weight: 700;">加入我们，共建高质量 AI 教学平台</h2>
+                      <p class="lead" style="font-size: 1.125rem;">
+                        <strong class="text-danger">我们正在寻找优秀的导师与合作伙伴，</strong> 一起探索 AI + 学科交叉的新可能！
+                      </p>
+                  
+                      <p>
+                        欢迎来自 <strong>985、211 及海外高校</strong> AI / CS / SE 专业的 <strong>硕士、博士及博士后</strong> 加入我们导师团队。
+                        无论你擅长算法建模、科研辅导还是跨学科教学，
+                        <strong>都能在这里找到发挥所长的舞台</strong>，共同为学生打造卓越的学习体验。
+                      </p>
+                  
+                      <div class="mt-4">
+                        <p><strong>电话:</strong> <span id="phone"></span></p>
+                        <p><strong>电子邮箱:</strong> <span id="email"></span></p>
+                      </div>
+                  
+                      <p class="mt-3">
+                        请将简历和来意发送至以上邮箱，<strong>我们期待与您的每一次对话。</strong>
+                      </p>
+                    </div>
+                  </section>
+                  
             </div>
         </div>
     </div>
 </div>
+
+
+
+<script>
+  document.getElementById("phone").innerText = "+86-155-3800-0209";
+  document.getElementById("email").innerText = "ppjiong11" + "@gmail.com";
+  //document.getElementById("email").innerText = "talent" + "@yuedongai.com";
+</script>
 
   </div>
   <div class="footer">
@@ -126,16 +139,16 @@
     <div class="row">
       <div class="col-12">
         <div class="footer-inner">
-          <h2 class="footer-title">Jekyll Serif</h2>
+          <h2 class="footer-title">跃动AI</h2>
           <ul>
             
             
             <li class="">
-              <a href="/danceAI/">首页</a>
+              <a href="/">首页</a>
             </li>
             
             <li class="active">
-              <a href="/danceAI/contact/">加入我们</a>
+              <a href="/contact/">加入我们</a>
             </li>
             
           </ul>
@@ -145,6 +158,8 @@
   </div>
 </div>
 
+
+
   <div class="sub-footer">
   <div class="container">
     <div class="row">
@@ -152,14 +167,17 @@
         <div class="sub-footer-inner">
           
           
-          <div class="copyright">Copyright © 2025 上海学分跃动教育科技有限公司. All Rights Reserved.</div>
+          <div class="copyright">© 2025 上海学分跃动教育科技有限公司 版权所有 保留一切权利<br> <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">
+  沪ICP备00000000号
+</a>
+</div>
           
         </div>
       </div>
     </div>
   </div>
 </div>
-  <script type="text/javascript" src="/danceAI/assets/js/scripts.js"></script>
+  <script type="text/javascript" src="/assets/js/scripts.js"></script>
   
 </body>
 </html>

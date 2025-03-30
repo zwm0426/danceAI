@@ -2,8 +2,6 @@
 title: 加入我们
 layout: contact
 description: Contact
+intro_image_absolute: true
+intro_image_hide_on_mobile: false
 ---
-
-加⼊我们，成为导师或合作伙伴  
-我们欢迎985、211及海外⾼校AI/CS/SE专业的硕博、博⼠后加⼊，和我们⼀起创造⾼质量的教学体验。  
-欢迎发送邮件至上述邮箱，请附上您的来意和基本简历。
